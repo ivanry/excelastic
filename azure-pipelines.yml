@@ -10,3 +10,6 @@ steps:
     inputs:
       targetType: inline
       script: 'Write-Warning "##vso[task.setvariable variable=normalizedSystemKey]$(`"$(systemKey)`".Replace(''-'', ''''))"'
+
+
+      
